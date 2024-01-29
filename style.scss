@@ -1,0 +1,391 @@
+
+// $font-stack:Montserrat;
+
+// body {
+//     margin: 0;
+//     padding: 0;
+//   }
+  
+//   .container {
+//     width: 1920px;
+//     height: 800px;
+//     background-color: #ffffff; 
+//     position: relative;
+//     display: flex;
+//   }
+  
+//   header {
+//     position: absolute;
+//     top: 50px;
+//     left: 405px;
+//     display: flex;
+//     flex-direction: row; 
+//     align-items: center; 
+
+//   }
+  
+//   h3 {
+//     font-size: 14px;
+//     font-style: normal;
+//     font-weight: 500;
+//     line-height: normal;
+//     letter-spacing: 0.42px;
+//     color: var(--Black, #212121);
+//     margin-left: 35px; 
+//   }
+//   .logo {
+//     margin-left: 101px; 
+//     margin-right: 91px; 
+//     display: flex;
+//     width: 201px;
+//     height: 40px;
+//     flex-shrink: 0;
+//   }
+  
+//   .logo img {
+//     width: 100%;
+//     height: 100%;
+//   }
+//   .firstscr_basket{
+//     margin-left: 101px; 
+//   }
+//   .first-screen{
+//     top: 205px; /* Отступ сверху от границы */
+//     left: 435px; /* Отступ слева от границы */
+//     width: 570px;
+//     height: 224px;
+//     background-color: #ffffff; /* Здесь можно задать цвет фона вашего прямоугольника */
+//     flex-shrink: 0;
+//     position: absolute;
+    
+//   }
+//   .first-screen-text{
+//     text-align: left;
+//   }
+//   .first-screen-text1{
+//     color: #000;
+//     font-size: 30px;
+//     font-style: normal;
+//     font-weight: 400;
+//     line-height: normal;
+//     letter-spacing: 0.6px;
+//     // width: 335px;
+//     // height: 28px;
+//   }
+//   .first-screen-text2{
+//     color: #000;
+//     font-size: 55px;
+//     font-style: normal;
+//     font-weight: 700;
+//     line-height: normal;
+//     letter-spacing: 2.2px;
+//     margin-top: 35px;
+//     margin-bottom: 55px;
+//   }
+//   .view-models-button {
+//     display:ruby;
+//     padding: 20px 30px;
+//     background-color: #D7B399; /* Цвет кнопки */
+//     color: #fff; /* Цвет текста кнопки */
+//     text-decoration: none;
+//     font-size: 16px;
+//     border: none;
+    
+//   }
+//   .img-runningshoes{
+//     position: relative; /* Change position to relative or other appropriate value */
+
+//     top: 215px; /* Отступ сверху от границы */
+//     left: 959px; /* Отступ слева от границы */
+//     flex-shrink: 0;
+//   }
+//   .slider {
+//     position: absolute;
+//     bottom: 70px; /* Отступ от нижней границы на 70px */
+//     left: 50%; /* Размещаем посередине горизонтально */
+//     transform: translateX(-50%); /* Центрируем относительно собственной ширины */
+//     z-index: 2; /* Устанавливаем z-index, если необходимо */
+//   }
+//   .container2{
+//     background-color: #212121;
+//     width: 1920px;
+//     height: 235px;
+//     flex-shrink: 0;
+//     text-align: center;
+//   }
+//   .centertext{
+//     position: relative;
+//     top: 80px;
+//     color: #FFF;
+//     font-size: 30px;
+//     font-style: normal;
+//     font-weight: 700;
+//     line-height: normal;
+//     letter-spacing: 0.6px;
+//   }
+//   .centertextsmall{
+//     position: relative;
+//     top: 140px;
+//     color: #FFF;
+//     font-size: 21px;
+//     font-style: normal;
+//     font-weight: 300;
+//     line-height: normal;
+//   }
+//   .bold-text {
+//     font-weight: bold;
+//   }
+//   .rectangles {
+//     display: flex; /* Устанавливаем контейнеру .2rectangles flex-контейнером */
+//     width: 1920px;
+//   }
+  
+//   .rectangle1 {
+//     flex: 1;
+//     width: 960px;
+//     height: 250px;
+//     flex-shrink: 0;
+//     background-color: #F9F6F1; /* Цвет фона для первого прямоугольника */
+//     position: relative;
+//   }
+  
+//   .rectangle2 {
+//     flex: 1;
+//     width: 960px;
+//     height: 250px;
+//     flex-shrink: 0;
+//     background-color: #F4F4F4; /* Цвет фона для второго прямоугольника */
+//     position: relative;
+//   }
+  
+//   .mencollection{
+//     position: relative;
+//     margin-top: 50px;
+//     margin-bottom: 25px;
+//     left: 426px;
+//     color: #000;
+//     font-family: Montserrat;
+//     font-size: 24px;
+//     font-style: normal;
+//     font-weight: 500;
+//     line-height: normal;
+//     letter-spacing: 0.72px;
+//   }
+//   .mentext{
+//     position: relative;
+//     left: 426px;
+//     color: #000;
+//     font-family: Montserrat;
+//     font-size: 16px;
+//     font-style: normal;
+//     font-weight: 300;
+//     line-height: normal;
+//   }
+//     .manphoto{
+
+//         position: absolute;
+//         bottom: 0; 
+//         height: 171px;
+//         left: 755px;
+//     }
+//     .womencollection{
+//         position: relative;
+//         margin-top: 50px;
+//         margin-bottom: 25px;
+//         left: 36px;
+//         color: #000;
+//         font-family: Montserrat;
+//         font-size: 24px;
+//         font-style: normal;
+//         font-weight: 500;
+//         line-height: normal;
+//         letter-spacing: 0.72px;
+//     }
+//     .womantext{
+//         position: relative;
+//         left: 36px;
+//         color: #000;
+//         font-family: Montserrat;
+//         font-size: 16px;
+//         font-style: normal;
+//         font-weight: 300;
+//         line-height: normal;
+//     }
+//     .womanphoto{
+//         height: 171px;
+//         position: absolute;
+//         bottom: 0; 
+//         left: 352px;
+//     }
+//     .rectangle {
+//         position: relative;
+//         width: 1110px;
+//         height: 472px;
+//         flex-shrink: 0;
+//         display: flex;
+//         flex-wrap: wrap; /* Позволяет элементам переходить на новую строку при заполнении ряда */
+//         left: 405px;
+//     }
+      
+//     .square {
+//         position: relative;
+//         width: 277px;
+//         height: 236px;
+//         // width: calc(25% - 10px); /* 25% ширины контейнера минус расстояние между квадратами */
+//         // height: calc(50% - 10px); /* 50% высоты контейнера минус расстояние между квадратами */
+//         background-color: #007bff; /* Цвет квадратов */
+
+//         img {
+//             width: 100%;
+//             height: 100%;
+//         }
+//         .textshirt{
+//             position: absolute; /* Устанавливаем абсолютную позицию для текста */
+//             top:186px;
+//             left: 30px;
+//             color: #000;
+//             font-family: Montserrat;
+//             font-size: 21px;
+//             font-style: normal;
+//             font-weight: 300;
+//             line-height: normal;
+//             letter-spacing: 0.63px;
+//             background-color: rgba(255, 255, 255, 0.7); /* Прозрачный фон для текста */
+    
+//         }
+//     }
+//     .newmodels{
+//         width: 1110px;
+//         height: 649px;
+//         top:150px;
+//         // margin-top: 150px;
+//         left: 405px;
+//         background-color: rgb(255, 255, 255);
+//         position: relative;
+//         display: flex;
+//         flex-direction: column; 
+
+//         gap:30px;
+//         .models-title{
+//             height: 44px;
+//             color: var(--Black, #212121);
+//             font-family: Montserrat;
+//             font-size: 36px;
+//             font-style: normal;
+//             font-weight: 700;
+//             line-height: normal;
+//             letter-spacing: 1.44px;
+//             text-transform: uppercase;
+//             text-align: center; /* Выравниваем текст по центру */
+//             margin-bottom: 103px; /* Отступ снизу между надписью и карточками */
+
+//         }
+//         .cards-container {
+//             display: flex; /* Располагаем карточки горизонтально */
+//             gap: 30px; /* Отступ между карточками */
+    
+//             .newitem_cards {
+//                 width: 255px;
+//                 height: 350px;
+//                 // width: calc(25% - 30px); /* 4 карточки в ряд с отступами */
+//                 position: relative;
+            
+//                 img {
+//                     top: 25px;
+//                     position:relative;
+//                     left: 25px;
+//                     width: 205px;
+//                     height: 211px;
+//                 }
+    
+//                 .itemtext {
+//                     color: #000;
+//                     text-align: center;
+//                     font-size: 14px;
+//                     font-style: normal;
+//                     font-weight: 600;
+//                     line-height: normal;
+//                     position: absolute;
+//                     top:258px;
+//                     right: 0;
+//                     left: 0;
+//                     // background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный фон для текста */
+//                 }
+//                 .price{
+//                     color: var(--Accent, #D7B399);
+//                     position: relative;
+//                     text-align: center;
+//                     font-size: 18px;
+//                     font-style: normal;
+//                     font-weight: 700;
+//                     line-height: normal;
+//                     top:70px;
+//                     right: 0;
+//                     left: 0;
+//                 }
+//             }
+
+//         }
+//         .buttonall{
+//             position: absolute;
+//             bottom: 0;
+//             left: 445px;
+//             width: 220px;
+//             line-height: 55px; /* Устанавливаем высоту кнопки как line-height */
+//             text-align: center;
+//             background-color: #D7B399; /* Цвет кнопки */
+//             color: #fff; /* Цвет текста кнопки */
+//             text-decoration: none;
+//             font-size: 16px;
+//             border: none;
+//         }
+ 
+//     }
+//     .sales{
+//         top: 300px;
+//         width: 1920px;
+//         height: 180px;
+//         position: relative;
+//         display: flex;
+//         background-color: #212121;
+//         align-items: center; /* Выравнивание элементов по центру по вертикали */
+//         justify-content: space-between; /* Равномерное распределение элементов по горизонтали */
+//         .getsale{
+//             position: relative;
+//             left:405px;
+//             color: #FFF;
+//             text-align: center;
+//             font-family: Montserrat;
+//             font-size: 30px;
+//             font-style: normal;
+//             font-weight: 700;
+//             line-height: normal;
+//             letter-spacing: 0.6px;
+
+//         }
+//         input{
+//             position: relative;
+//             margin-left: 400PX;
+//             width: 255px;
+//             height: 40px;
+//             flex-shrink: 0;
+//         }
+//         .subscribe {
+//             margin-right: 405px; 
+//             width: 185px;
+//             text-align: center;
+//             text-decoration: none;
+//             color: #fff;
+//             line-height: 40px;
+//             flex-shrink: 0;
+//             background: var(--Accent, #D7B399);
+//         }
+//       }
+//       .empty{
+//         position: relative;
+//         height: 300px;
+//       }
+
+
+
+      
